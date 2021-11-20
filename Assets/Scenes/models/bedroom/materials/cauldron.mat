@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: floor
+  m_Name: cauldron
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _NORMALMAP
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: e4c3442ed972601438b51a3bf1f4b387, type: 3}
+        m_Texture: {fileID: 2800000, guid: f432457251df7cb46b6ceb75bcd5f6d5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 2800000, guid: 27b04e6e7e91b2b4faa612935eb9bffe, type: 3}
+        m_Texture: {fileID: 2800000, guid: c30a5173f7d816f4890e4154e2ee5442, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3b21db51569820f4997e7ed7d9bc0929, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1219f442e62bb8546bc711a3632f13d0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -61,9 +61,9 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.274
+    - _Glossiness: 0.247
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.927
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
