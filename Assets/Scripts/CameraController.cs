@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraController : MonoBehaviour
 {
@@ -33,6 +34,9 @@ public class CameraController : MonoBehaviour
     [Tooltip("Speed as a percentage of default (1)")]
     [SerializeField] private float zoomSpeed = 0.5f;
 
+    [Header("UI")]
+    [SerializeField] private Slider mySlider = null;
+
     private void Awake()
     {
         rotationOffset = transform.rotation.eulerAngles.y;
@@ -48,6 +52,7 @@ public class CameraController : MonoBehaviour
         GameManager.MousePressed += OnMousePressed;
         GameManager.MouseReleased += OnMouseReleased;
         GameManager.MouseScroll += OnMouseScroll;
+        mySlider.onValueChanged.AddListener(delegate { ZoomToValue(mySlider.value); });
     }
     private void OnDisable()
     {
@@ -87,10 +92,14 @@ public class CameraController : MonoBehaviour
 
     private void OnMouseScroll(float scroll)
     {
-        float zoomTarget = myCamera.transform.localPosition.z + (scroll * zoomSpeed) ;
+        float zoomTarget = myCamera.transform.localPosition.z + (scroll * zoomSpeed);
         zoomTarget = Mathf.Clamp(zoomTarget, zoomBounds.x, zoomBounds.y);
         myCamera.transform.localPosition = new Vector3(horizontalOffset, verticalOffset, zoomTarget);
+        FocusCheck(zoomTarget);
+    }
 
+    private void FocusCheck(float zoomTarget)
+    {
         isFocused = zoomTarget > zoomBreakpoint;
 
         if (!isFocused)
@@ -113,5 +122,12 @@ public class CameraController : MonoBehaviour
     private void MoveAroundTarget()
     {
         myCamera.transform.LookAt(sceneTarget.transform);
+    }
+
+    private void ZoomToValue(float value)
+    {
+        float targetValue = Mathf.Lerp(zoomBounds.x, zoomBounds.y, value);
+        myCamera.transform.localPosition = new Vector3(horizontalOffset, verticalOffset, targetValue);
+        FocusCheck(targetValue);
     }
 }
