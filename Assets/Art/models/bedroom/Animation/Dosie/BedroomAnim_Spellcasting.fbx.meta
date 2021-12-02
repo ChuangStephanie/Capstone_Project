@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 98faa26ef07258d42924c21efab66771
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -3880581976594992817
+    second: ArmatureAction
+  - first:
+      74: 885944232402757753
+    second: Armature|Action
+  - first:
+      74: 4781951162920444690
+    second: Armature|ArmatureAction
+  - first:
+      74: 182750067774858800
+    second: Armature|Book_BottomAction
+  - first:
+      74: -6531983828809540447
+    second: Armature|Book_MiddleAction
+  - first:
+      74: 8063474802003034337
+    second: Armature|Book_TopAction
+  - first:
+      74: 5581993359885231152
+    second: Armature|BookBindingAction
+  - first:
+      74: 1893889191074325939
+    second: Armature|CandleAction
+  - first:
+      74: -4979914634767147750
+    second: Armature|CandleAction.002
+  - first:
+      74: 8605374611294304128
+    second: Armature|CandleAction.004
+  - first:
+      74: -3554019555005744464
+    second: Armature|CandleAction.006
+  - first:
+      74: 1443170276295219990
+    second: Armature|CandleAction.008
+  - first:
+      74: 2335303396997544669
+    second: Armature|CandleAction.010
+  - first:
+      74: 19885586673893819
+    second: Armature|CandleAction.011
+  - first:
+      74: -5343553374052343453
+    second: Armature|CandleAction.012
+  - first:
+      74: -8632280197899421824
+    second: Armature|CandleAction.014
+  - first:
+      74: -5146548015988420644
+    second: Armature|CandleAction.016
+  - first:
+      74: -5622706469262925087
+    second: Armature|CandleAction.018
+  - first:
+      74: 6195996595073312105
+    second: Armature|CandleAction.020
+  - first:
+      74: 7818894778798176613
+    second: Armature|CandleAction.022
+  - first:
+      74: 1086199071429180089
+    second: Armature|spoonAction
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
