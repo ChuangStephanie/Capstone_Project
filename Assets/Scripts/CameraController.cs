@@ -72,7 +72,7 @@ public class CameraController : MonoBehaviour
 
         if(isFocused && sceneTarget != null)
         {
-            MoveAroundTarget();
+            FocusOnTarget();
         }
     }
 
@@ -96,6 +96,8 @@ public class CameraController : MonoBehaviour
         zoomTarget = Mathf.Clamp(zoomTarget, zoomBounds.x, zoomBounds.y);
         myCamera.transform.localPosition = new Vector3(horizontalOffset, verticalOffset, zoomTarget);
         FocusCheck(zoomTarget);
+        float zoomPercent = Mathf.InverseLerp(zoomBounds.x, zoomBounds.y, zoomTarget);
+        mySlider.value = Mathf.Lerp(mySlider.minValue, mySlider.maxValue, zoomPercent);
     }
 
     private void FocusCheck(float zoomTarget)
@@ -119,7 +121,7 @@ public class CameraController : MonoBehaviour
         mouseHorizontal = Input.mousePosition.x;
     }
 
-    private void MoveAroundTarget()
+    private void FocusOnTarget()
     {
         myCamera.transform.LookAt(sceneTarget.transform);
     }
