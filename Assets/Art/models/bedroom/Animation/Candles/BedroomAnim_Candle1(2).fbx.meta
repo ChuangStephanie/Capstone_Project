@@ -1,71 +1,86 @@
 fileFormatVersion: 2
-guid: 98faa26ef07258d42924c21efab66771
+guid: 67605cb310ae7de4faf22e1e31ae2be7
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: -3880581976594992817
-    second: ArmatureAction
+      74: 175355987530316328
+    second: candle1_bone|Action
   - first:
-      74: 885944232402757753
-    second: Armature|Action
+      74: 6828209939038751285
+    second: candle1_bone|Action.001
   - first:
-      74: 4781951162920444690
-    second: Armature|ArmatureAction
+      74: -2673830913155712512
+    second: candle1_bone|Armature.001Action
   - first:
-      74: 182750067774858800
-    second: Armature|Book_BottomAction
+      74: -2292689488918654673
+    second: candle1_bone|Armature.001Action.001
   - first:
-      74: -6531983828809540447
-    second: Armature|Book_MiddleAction
+      74: 7553530979547651244
+    second: candle1_bone|Book_BottomAction
   - first:
-      74: 8063474802003034337
-    second: Armature|Book_TopAction
+      74: -7940874776317945934
+    second: candle1_bone|Book_MiddleAction
   - first:
-      74: 5581993359885231152
-    second: Armature|BookBindingAction
+      74: -7065653267166905531
+    second: candle1_bone|Book_TopAction
   - first:
-      74: 1893889191074325939
-    second: Armature|CandleAction
+      74: -7664675859116702933
+    second: candle1_bone|candle1Action
   - first:
-      74: -4979914634767147750
-    second: Armature|CandleAction.002
+      74: 8463826538308969413
+    second: candle1_bone|CandleAction
   - first:
-      74: 8605374611294304128
-    second: Armature|CandleAction.004
+      74: -6456289502775365045
+    second: candle1_bone|CandleAction.001
   - first:
-      74: -3554019555005744464
-    second: Armature|CandleAction.006
+      74: 8453886478627277805
+    second: candle1_bone|CandleAction.002
   - first:
-      74: 1443170276295219990
-    second: Armature|CandleAction.008
+      74: 2875248977647130973
+    second: candle1_bone|CandleAction.003
   - first:
-      74: 2335303396997544669
-    second: Armature|CandleAction.010
+      74: -2361718084569755114
+    second: candle1_bone|CandleAction.004
   - first:
-      74: 19885586673893819
-    second: Armature|CandleAction.011
+      74: -1238497190648702041
+    second: candle1_bone|CandleAction.005
   - first:
-      74: -5343553374052343453
-    second: Armature|CandleAction.012
+      74: 8139537888741388991
+    second: candle1_bone|CandleAction.006
   - first:
-      74: -8632280197899421824
-    second: Armature|CandleAction.014
+      74: 3543328077667144007
+    second: candle1_bone|CandleAction.007
   - first:
-      74: -5146548015988420644
-    second: Armature|CandleAction.016
+      74: -828968851031950155
+    second: candle1_bone|CandleAction.008
   - first:
-      74: -5622706469262925087
-    second: Armature|CandleAction.018
+      74: -6689482382675633576
+    second: candle1_bone|CandleAction.010
   - first:
-      74: 6195996595073312105
-    second: Armature|CandleAction.020
+      74: 7433138320033415759
+    second: candle1_bone|CandleAction.011
   - first:
-      74: 7818894778798176613
-    second: Armature|CandleAction.022
+      74: 6678725518569094282
+    second: candle1_bone|CandleAction.012
   - first:
-      74: 1086199071429180089
-    second: Armature|spoonAction
+      74: -15350240936959538
+    second: candle1_bone|CandleAction.014
+  - first:
+      74: 3854878808666625922
+    second: candle1_bone|CandleAction.016
+  - first:
+      74: -7908545667801886820
+    second: candle1_bone|CandleAction.018
+  - first:
+      74: 4790496056346108467
+    second: candle1_bone|CandleAction.020
+  - first:
+      74: 7955093084653552692
+    second: candle1_bone|CandleAction.022
+  - first:
+      74: 8752773594209672989
+    second: candle1_bone|spoonAction
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -95,11 +110,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: ArmatureAction
-      takeName: ArmatureAction
+      name: candle1_bone|Action
+      takeName: candle1_bone|Action
       internalID: 0
       firstFrame: 0
-      lastFrame: 679
+      lastFrame: 666
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -124,8 +139,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Action
-      takeName: Armature|Action
+      name: candle1_bone|Action.001
+      takeName: candle1_bone|Action.001
       internalID: 0
       firstFrame: 0
       lastFrame: 666
@@ -153,37 +168,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|ArmatureAction
-      takeName: Armature|ArmatureAction
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 679
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|Book_BottomAction
-      takeName: Armature|Book_BottomAction
+      name: candle1_bone|Armature.001Action
+      takeName: candle1_bone|Armature.001Action
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -211,8 +197,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Book_MiddleAction
-      takeName: Armature|Book_MiddleAction
+      name: candle1_bone|Armature.001Action.001
+      takeName: candle1_bone|Armature.001Action.001
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -240,8 +226,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Book_TopAction
-      takeName: Armature|Book_TopAction
+      name: candle1_bone|Book_BottomAction
+      takeName: candle1_bone|Book_BottomAction
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -269,11 +255,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|BookBindingAction
-      takeName: Armature|BookBindingAction
+      name: candle1_bone|Book_MiddleAction
+      takeName: candle1_bone|Book_MiddleAction
       internalID: 0
       firstFrame: 0
-      lastFrame: 667
+      lastFrame: 1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -298,8 +284,66 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|CandleAction
-      takeName: Armature|CandleAction
+      name: candle1_bone|Book_TopAction
+      takeName: candle1_bone|Book_TopAction
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|candle1Action
+      takeName: candle1_bone|candle1Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|CandleAction
+      takeName: candle1_bone|CandleAction
       internalID: 0
       firstFrame: 0
       lastFrame: 621
@@ -327,153 +371,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|CandleAction.002
-      takeName: Armature|CandleAction.002
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|CandleAction.004
-      takeName: Armature|CandleAction.004
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|CandleAction.006
-      takeName: Armature|CandleAction.006
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|CandleAction.008
-      takeName: Armature|CandleAction.008
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|CandleAction.010
-      takeName: Armature|CandleAction.010
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|CandleAction.011
-      takeName: Armature|CandleAction.011
+      name: candle1_bone|CandleAction.001
+      takeName: candle1_bone|CandleAction.001
       internalID: 0
       firstFrame: 0
       lastFrame: 621
@@ -501,8 +400,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|CandleAction.012
-      takeName: Armature|CandleAction.012
+      name: candle1_bone|CandleAction.002
+      takeName: candle1_bone|CandleAction.002
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -530,8 +429,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|CandleAction.014
-      takeName: Armature|CandleAction.014
+      name: candle1_bone|CandleAction.003
+      takeName: candle1_bone|CandleAction.003
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -559,8 +458,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|CandleAction.016
-      takeName: Armature|CandleAction.016
+      name: candle1_bone|CandleAction.004
+      takeName: candle1_bone|CandleAction.004
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -588,8 +487,37 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|CandleAction.018
-      takeName: Armature|CandleAction.018
+      name: candle1_bone|CandleAction.005
+      takeName: candle1_bone|CandleAction.005
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 621
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|CandleAction.006
+      takeName: candle1_bone|CandleAction.006
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -617,8 +545,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|CandleAction.020
-      takeName: Armature|CandleAction.020
+      name: candle1_bone|CandleAction.007
+      takeName: candle1_bone|CandleAction.007
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -646,8 +574,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|CandleAction.022
-      takeName: Armature|CandleAction.022
+      name: candle1_bone|CandleAction.008
+      takeName: candle1_bone|CandleAction.008
       internalID: 0
       firstFrame: 0
       lastFrame: 1
@@ -675,8 +603,240 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|spoonAction
-      takeName: Armature|spoonAction
+      name: candle1_bone|CandleAction.010
+      takeName: candle1_bone|CandleAction.010
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|CandleAction.011
+      takeName: candle1_bone|CandleAction.011
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 621
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|CandleAction.012
+      takeName: candle1_bone|CandleAction.012
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|CandleAction.014
+      takeName: candle1_bone|CandleAction.014
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|CandleAction.016
+      takeName: candle1_bone|CandleAction.016
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|CandleAction.018
+      takeName: candle1_bone|CandleAction.018
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|CandleAction.020
+      takeName: candle1_bone|CandleAction.020
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|CandleAction.022
+      takeName: candle1_bone|CandleAction.022
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: candle1_bone|spoonAction
+      takeName: candle1_bone|spoonAction
       internalID: 0
       firstFrame: 0
       lastFrame: 667

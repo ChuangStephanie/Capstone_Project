@@ -1,20 +1,29 @@
 fileFormatVersion: 2
-guid: 4a6f95efc048f70479e43fd527123d79
+guid: f6aa80f052e3b4a41a08ad93f9c46a49
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: 3813175344818101766
-    second: BookBinding|BookBindingAction
+      74: -2409860679642674812
+    second: candle2_bone|Action
   - first:
-      74: 8650647967379275865
-    second: BookBinding|CandleAction
+      74: -2592376117996167285
+    second: candle2_bone|Action.001
   - first:
-      74: -2076489414701779495
-    second: BookBinding|CandleAction.011
+      74: 6845535760683509716
+    second: candle2_bone|CandleAction
   - first:
-      74: -3402493822401574515
-    second: BookBinding|spoonAction
+      74: -4135549029029542712
+    second: candle2_bone|CandleAction.001
+  - first:
+      74: 1478103576587347736
+    second: candle2_bone|CandleAction.005
+  - first:
+      74: -826208765477652584
+    second: candle2_bone|CandleAction.011
+  - first:
+      74: -5693662885809970909
+    second: candle2_bone|spoonAction
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -44,11 +53,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: BookBinding|BookBindingAction
-      takeName: BookBinding|BookBindingAction
+      name: candle2_bone|Action.001
+      takeName: candle2_bone|Action.001
       internalID: 0
       firstFrame: 0
-      lastFrame: 667
+      lastFrame: 666
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -56,93 +65,6 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: BookBinding|CandleAction
-      takeName: BookBinding|CandleAction
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 621
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: BookBinding|CandleAction.011
-      takeName: BookBinding|CandleAction.011
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 621
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: BookBinding|spoonAction
-      takeName: BookBinding|spoonAction
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 667
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
